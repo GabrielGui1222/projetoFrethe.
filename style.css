@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior:smooth;
+    scroll-padding-top:3rem;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    color: black;
+}
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index:1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background:white;
+    padding: 30px 14%;
+    transition: all .50s ease;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    font-size: 55px;
+    font-weight: 900;
+    color: black;
+}
+.logo span{
+    color:rgb(255,99,11,1);
+}
+.navlist{
+    display: flex;
+}
+ .navlist a{
+    font-size: 20px;
+    color:rgb(255,99,11,1);
+    margin: 0 30px;
+}
+.navlist a:hover{
+    color:black;
+}
+.buttonLg a{
+    color:white;
+}
+.buttonLg{
+    margin: 0;
+    padding: 12px 30px;
+    background:rgb(255,99,11,1);
+    border-radius: 3rem;
+    text-decoration: none;
+}
+
+.buttonLg:hover{
+    background:black;
+    
+}
+.buttonCadastro{
+    padding: 0%;
+}
+.buttonCadastro a{
+    color:rgb(255,99,11,1);
+}
+.buttonCadastro a:hover{
+    color:black;
+}
+
+section{
+    padding: 70px 14% 60px;
+}
+.home{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 2rem;
+}
+.home-img img{
+    width: 100%;
+    height: auto;
+}
+.home-txt h1{
+    font-size: 100px;
+    font-weight: 600;
+    color: black;
+}
+.home-txt span{
+    font-size: 90px;
+    color:rgb(255,99,11,1);
+}
+.home2{
+    background-color:rgb(255,99,11,1);
+}
+.home2 h1{
+    color: white;
+    font-size: 40px;
+}
+.home2 h2{
+    font-size:50px;
+}
+.home2 span{
+    color:white;
+}
+.home2-txt{
+   text-align: center;
+}
+.home2-img img{
+    width: 30%;
+    height: auto;
+}
+.home2-img{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.home2-txt2{
+    align-items: center;
+    font-size: 40px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 56px;
+
+}
