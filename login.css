@@ -31,8 +31,6 @@ body {
     height: 100%;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
-
-
     left: 0;
 }
 .title {
@@ -66,12 +64,10 @@ body {
     color: #000;
     align-self: center;
     text-decoration: none;
-    
 }
 .btn {
     border-radius: 15px;
     text-transform: uppercase;
-    color: #fff;
     font-size: 10px;
     padding: 10px 50px;
     cursor: pointer;
@@ -85,20 +81,24 @@ body {
     background-color: transparent;
     border: 1px solid #fff;
     transition: background-color .5s;
+    color: #fff;
 }
 .btn-primary:hover {
     background-color: #fff;
     color: rgb(255,99,11,1);
 }
 .btn-second {
-    background-color: rgb(255,99,11,1);
-    border: 1px solid rgb(255,99,11,1);
+    background-color: transparent;
+    border: 1px solid #000;
     transition: background-color .5s;
 }
 .btn-second:hover {
-    background-color: #fff;
-    border: 1px solid black;
-    color: rgb(255,99,11,1);
+    background-color: rgb(255,99,11,1);
+    color: #fff;
+    border: 1px solid #fff;
+}
+.senha::placeholder{
+    color: #fff;
 }
 .first-content {
     display: flex;
@@ -126,15 +126,17 @@ body {
     height: 45px;
     width: 100%;
     border: none;
-    background-color: #ecf0f1;
+    background-color: rgb(255,99,11,1);
+    border-radius: 15px;
 }
 .label-input {
-    background-color: #ecf0f1;
+    background-color: rgb(255,99,11,1);
     display: flex;
     align-items: center;
     margin: 8px;
+    border-radius: 15px;
 }
 .icon-modify {
-    color: #7f8c8d;
+    color: white;
     padding: 0 5px;
 }
