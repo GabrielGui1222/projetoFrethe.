@@ -1,0 +1,52 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    align-items: center;
+}
+.title {
+    font-size: 60px;
+    color: rgb(255,99,11,1);
+}
+.title span{
+    color:#000
+}
+.column {
+    text-align: center;
+    width: 90%;
+    z-index: 10;
+}
+.form {
+    margin: 0 15px;
+    display: flex;
+    flex-direction: column;
+}
+.form input {
+    height: 40px;
+    width: 100%;
+    border: none;
+    background-color: rgb(255,99,11,1);
+    border-radius: 40px;
+}
+.button {
+    border-radius: 15px;
+
+    font-size: 10px;
+    padding: 10px 50px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 150px;
+    align-self: center;
+    border: none;
+    margin-top: 1rem;
+    background-color: transparent;
+    border: 1px solid #000;
+    transition: background-color .5s;
+}
+.button:hover {
+    background-color: rgb(255,99,11,1);
+    color: #fff;
+    border: 1px solid #fff;
+}
